@@ -1,0 +1,14 @@
+body {
+   font: normal 16px Arial, Verdana, Serif;
+}
+
+
+h1 {
+   text-align: center;
+}
+
+
+p {
+   text-align: justify;
+   text-indent: 20px;     (O ínicio do parágrafo vai ter um distanciamento)
+}

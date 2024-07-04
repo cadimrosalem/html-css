@@ -1,0 +1,8 @@
+Citações Simples
+<q> 
+
+Citações Completas
+<blockquote cite="(endereço)"> citação de um livro de alguém.
+
+Abreviações
+<abbr>

@@ -1,0 +1,55 @@
+PSEUDO-CLASSE ( : )
+
+div {
+      display: inline-block;
+      background-color: lightgray;
+      border: 1px solid black;           (largura, tipo, cor)
+      text-align: center;
+      height: 200px;
+      width: 200px;
+}
+
+div:hover               : = pseudo-casse
+div > p                 hover = quando passar o mouse por cima de algum elemento
+div:hover > p           div > p = o parágrafo está dentro de uma div / é filho da div
+
+
+LINKS
+
+body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: darkred;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow
+        }
+
+PSEUDO-ELEMENTO ( :: )
+
+  .especial {
+            background-color: rgba(253, 4, 4, 0.116);            
+        }
+
+        .especial::before {
+            content: '» ';
+        }
+
+        .especial::after {
+            content: ' «';           
+        }
+

@@ -1,0 +1,15 @@
+Listas Ordenadas (aquelas que a ordem faz diferença)
+
+<ol type="...">
+   <li>Acordar
+   <li>Tomar café
+   <li>Escovar os dentes
+
+Listas Não Ordenadas (aquelas onde a sequência não faz sentido)
+
+<ul type="..." disc / circle / square
+   <li>Pão
+   <li>Leite
+   <li>Tomate
+
+

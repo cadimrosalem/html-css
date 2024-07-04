@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: auto;      
+}
+
+header {
+    background-color: lightgreen;    
+    padding: 10px;
+}
+
+#principal {
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 100, 0, 0.658);
+    padding: 10px;    
+}
+
+nav > a {    
+    text-decoration: none;
+    margin-left: 10px;  
+    color: white;  
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+
+.assunto {
+    background-color: rgba(144, 238, 144, 0.466);
+}

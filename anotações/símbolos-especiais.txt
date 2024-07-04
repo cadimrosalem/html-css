@@ -1,0 +1,12 @@
+&reg;
+&copy;
+&trade;
+&euro;
+&pound;
+&yen;
+&cent;
+&Delta;
+&uarr;
+
+Emoji
+&#x

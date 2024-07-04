@@ -1,0 +1,50 @@
+ <style>
+        h1 {     (box-level)
+
+            background-color: lightgrey;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgrey;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            padding: 10px 10px 10px 10px;   (simplificado)
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            margin: 10px 10px 10px 10px;    (simplificado)
+
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: red;
+
+            outine: 5px dashed red;
+        }
+
+        a {         (inline-level)
+
+            border-width: 5px;
+            border-style: solid;
+            border-color: red;
+
+            border: 5px solid red;          (simplificado)
+
+
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+
+            padding: 5px 5px 5px 5px;       (simplificado)
+
+        }
+    </style>

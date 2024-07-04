@@ -1,0 +1,12 @@
+font-weight: lighter / normal / bold / bolder;    (negrito)
+
+font-style: italic / normal;                      (itálico)
+
+text-decoration: underline;                       (sublinhado)
+
+
+SHORTHAND FONT 
+
+Ordem: font-style --> font-weight --> font-size --> font-family
+
+font: italic bolder 3em 'Work Sans', sans-serif;

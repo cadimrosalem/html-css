@@ -1,0 +1,3 @@
+Repositório Local = O que vai ficar no computador
+
+Repositório Remoto = O que está no GitHub

@@ -1,0 +1,17 @@
+MEDIDAS ABSOLUTAS
+
+cm, mm, in, px, pt, pc    (centímetro, milímetro, polegada, pixel, ponto, paica)
+
+MEDIDAS RELATIVAS
+
+em, ex, rem, vw, vh, %          em = relativo à altura do M maiúsculo de uma fonte;
+                                ex = relativo à altura X;
+                                rem = relativo ao root / à fonte que está configurada no body;
+                                vw (view width) = largura da view port / tamanho da sua tela;
+                                vh (view height) = altura da view port;
+                                % = porcentagem
+
+
+Obs.: 16px geralmente = 1em
+
+Recomendado sempre usar px ou em.

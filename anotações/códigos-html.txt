@@ -1,0 +1,10 @@
+<hr> (horizontal roll / linha horizontal)
+
+< = &lt; (less than)
+> = &gt; (greater than)
+
+<br> (quebra de parágrafo)
+
+<u> (sublinhado) = forma
+
+<adress> = significado

@@ -1,0 +1,16 @@
+VÍDEOS EM HOSPEDAGEM PRÓPRIA
+
+<video width="500" poster="thumbnail" controls>
+   <source src="..." type="video/mp4">
+   <source src="..." type="video/m4v">
+   <source src="..." type="video/webm">
+   <source src="..." type="video/ogg">     ogv = ogg
+
+
+
+VÍDEOS DE HOSPEDAGEM DE VÍDEO (Exemplo: YouTube)
+
+No vídeo: clicar em compartilhar e "incorporar" copiar e colar o código.
+
+
+

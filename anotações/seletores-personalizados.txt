@@ -1,0 +1,36 @@
+SÍMBOLOS
+
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = children
+
+
+/* em HTML é id = em CSS é # (só pode um elemento)
+   em HTML é class = em CSS é . (pode vários elementos)
+*/
+
+
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+class="basico"
+.basico
+
+
+Se quiser destacar uma frase dentro do texto = Envelopar com a tag <span>
+<span class="basico"> texto...</span>
+
+
+O que sobrepõe são as configurações do id, mas ele sempre vai herdar o que veio da camada acima.
+
+
+
+
+
+
+

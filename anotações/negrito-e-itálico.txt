@@ -1,0 +1,16 @@
+Semântica = tem significado
+Não Semântica = não tem significado
+
+<b> (não semântica)  são aquelas que não tem um propósito bem definido.
+<strong> (semântica) da um destaque para a frase.
+
+Envelopar:
+ctrl + shift + p 
+escrever abb
+i = itálico
+
+<i> (não semântica) 
+<em> (semântica) 
+
+
+

@@ -1,0 +1,20 @@
+FONTES EXTERNAS
+
+@import url('colar a fonte copiada');
+
+
+FONTES BAIXADAS
+
+@font-face {
+   font-family:...;
+   src: url('nome do arquivo') format('...');
+
+
+TIPOS DE FORMAT
+
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-att (Apple Advanced Typography)
+- svg
+

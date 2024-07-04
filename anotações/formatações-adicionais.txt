@@ -1,0 +1,11 @@
+<mark> (marca texto)
+<mark style="background-color: (cor...);>
+
+<del> (texto excluído)
+<ins> (texto inserido)
+
+texto sobrescrito
+x² <sup>
+
+texto sbscrito
+h2o (o 2 em baixo)

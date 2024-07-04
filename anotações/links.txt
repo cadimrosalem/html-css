@@ -1,0 +1,39 @@
+Envelopar
+ctrl + shift + p
+escrever "a"
+
+Links Externos:
+
+<a href="url" target="_blank" rel="external">   
+
+
+rel = relativo à;                                                
+external = link externo;                                               
+target="_blank" = abrir em uma nova aba;
+target="_self" = abrir na própria aba;
+next = próxima;
+prev = anterior;
+no follow = para não dar um aval ao conteúdo;
+<a href="./"> = própria página
+<a href="../"> = página anterior
+
+
+Links Internos:
+
+Criar um novo arquivo para uma página 02
+
+Criar um link na primeira página:
+<a href="segurar ctrl + espaço" rel="next">
+
+Na página 02 criar um link para voltar à primeira página 
+<a href="index.html" rel="prev">
+
+
+Links para download
+
+Formatos de arquivo para download:
+site: www.iana.org/assignments/media-types/media-types.xhtml
+
+<a href="#" download="..." type="aplication/pdf"> Baixar ...</a>
+
+

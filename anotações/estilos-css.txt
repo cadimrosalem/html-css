@@ -1,0 +1,40 @@
+ESTILO INLINE
+
+<p style="text-align: justify"     (Exemplo)
+
+
+ESTILO INTERNO
+
+Em baixo de <title>
+
+<style>
+
+   body {
+      background-color: ...;
+      font-family: Arial;
+      font-size: 20px;
+      text-align: justify;
+   }
+
+   h1 {
+      color:...;
+   }
+
+   h2 {
+      color:...;
+   }
+
+
+ESTILO EXTERNO
+
+Em baixo de <title>
+
+link:css
+<link rel="stylesheet" href="style.css"     segurar ctrl, clicar em "style.css" e criar um arquivo
+
+@charset "UTF-8";
+
+
+OBSERVAÇÃO:
+
+Pode-se usar css externo, interno e inline num mesmo arquivo.
