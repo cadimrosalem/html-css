@@ -28,3 +28,25 @@ height: 98vh;
             background-size: 100px;
             background-repeat: no-repeat;
             background-position: bottom left;
+
+body {
+            height: 100vh;
+            background-color: black;  
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;     
+        }
+
+        main {
+            background-color: white;
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+
+        main p {
+            text-align: justify;
+        }
