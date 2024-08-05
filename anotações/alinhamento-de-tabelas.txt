@@ -1,0 +1,2 @@
+text-align: center; /* Alinhamento horizontal - left / center / right */ 
+            vertical-align: middle; /* Alinhamento vertical - top / middle / bottom */ 
