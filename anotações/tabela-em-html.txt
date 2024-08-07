@@ -51,3 +51,13 @@ body {
             border: 1px solid black;  
             padding: 8px;          
         }
+
+ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
