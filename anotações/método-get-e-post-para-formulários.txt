@@ -1,0 +1,4 @@
+method="post/get"
+
+Quando usar "get"= Quando não pedir dados pessoais / sensíveis ou para compartilhar URL mas tem limite de 3.000 bits. Ex.: senha, dados bancários...
+Quando usar "post"= Quando não quer que seus dados apareçam na URL / se seus dados tiverem mais de 3.000 bits / se quiser fazer envio de arquivos e fotos.
