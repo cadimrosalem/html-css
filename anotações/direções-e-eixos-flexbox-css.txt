@@ -1,0 +1,30 @@
+--- FLEX DIRECTIONS ---
+
+
+flex-direction: row; (da esquerda para direita)
+
+flex-direction: row-reverse; (da direita para esquerda)
+
+flex-direcion: column; (coluna / cima para baixo)
+
+flex-direction: column-reverse; (coluna / baixo para cima)
+
+
+--- EIXOS (AXIS) ---
+
+
+QUANDO:
+
+flex-direction: row;  - main-axis = esquerda para direita
+                      - cross-axis = cima para baixo
+
+
+flex-direction: row-reverse; - main-axis = direita para esquerda
+                             - cross-axis = cima para baixo
+
+
+flex-direction: column; - main-axis = cima para baixo
+                        - cross-axis = esquerda para direita
+
+flex-direction: column-reverse; - main-axis = baixo para cima
+                                - cross-axis = esquerda para direita
