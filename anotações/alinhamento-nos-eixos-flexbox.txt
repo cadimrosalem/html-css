@@ -1,0 +1,25 @@
+justify-content: alinhamento em relação ao main-axis (eixo principal)
+
+justify-content: flex-start (o primeiro item vai ficar no início e o espaço em branco vai ser jogado no final do eixo principal)
+
+justify-content: flex-end (o último item vai ser sempre colado no final e o espaço em branco vai ficar junto do main start)
+
+justify-content: center (todos os itens vão ficar juntos no meio do main-axis e os estpaços em branco vão ficar distribuídos de forma igual no main-start e no main-end)
+
+justify-content: space-between (o primeiro item vai estar no main-start, o último no main-end e todos os outros no meio com um espaçamento entre eles igual)
+
+justify-content: space-evenly (entre todos os itens, inclusive antes do primeiro e depois do último, vão ter espaçamentos iguais)
+
+justify-content: space-around (vai pegar o espaço útil do container, vai dividir esses espaços em 3 pedaços iguais e vai centralizar os itens em 3 espaços iguais)
+
+
+
+align-itens: alinhamento no sentido transversal / cross-axis.
+
+align-itens: stretch (vai esticar os elementos se aumentar o tamanho do cross-axis)
+
+align-itens: flex-start (vai grudar no início do eixo transversal)
+
+align-itens: flex-end (vai fazer os itens grudarem no final do cross-axis)
+
+align-itens: center (vai dividir o cross-axis na metade, vai pegar o espaço livre e colocar no início e no final do cross-axis)
