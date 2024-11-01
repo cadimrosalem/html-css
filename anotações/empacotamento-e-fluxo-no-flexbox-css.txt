@@ -1,0 +1,14 @@
+--- FLEX WRAP ---
+
+Obs.: O tamanho de um bloco vai depender do conteúdo que existe nele
+
+
+flex-wrap: nowrap; - Não quebra. (valor padrão) 
+
+flex-wrap: wrap; - Quebra do últico bloco no sentido do eixo transversal, cross-axis. 
+
+flex-wrap: wrap-reverse; - Quebra do último bloco no sentido oposto do eixo transversal.
+
+SHORTHAND:
+
+flex-flow: row nowrap;
