@@ -1,0 +1,3 @@
+flex-basis: auto; - A largura dos itens para cada elemento é dada através do tamanho do seu conteúdo.
+
+flex-basis: 200px; - Não vai se adaptar ao tamanho do conteúdo, todos vão ter 200px. Se colocar flex-basis de 200px para todos, caso não exista espaço físico para que todos tenham 200px, todos vão diminuir de forma igual. 
