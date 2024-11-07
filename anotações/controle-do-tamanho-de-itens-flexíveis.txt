@@ -1,0 +1,13 @@
+flex-shrink: encolher
+flex-grow: aumentar (quando for maior que 1, tem que calcular a proporção)
+
+--- PADRÃO ---
+
+flex-shrink: 1 (qualquer item pode encolher)
+flex-grow: 0 (não pode crescer)
+
+flex-shrink: 1 (qualquer item pode encolher)
+flex-grow: 1 (pode crescer)
+
+flex-shrink: 0 (não pode encolher)
+flex-grow: 1 (pode crescer)
