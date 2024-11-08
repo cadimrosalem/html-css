@@ -1,0 +1,28 @@
+- A propriedade Flex se aplica aos flex-itens, não ao container.
+
+- Ordem: flex = flex-grow + flex-shrink + flex-basis
+
+flex: 0 1 150px;
+
+
+--- MAIS SIMPLIFIÇÕES ---
+
+flex: 0 1 auto; 
+     = 
+flex:initial;
+
+
+flex: 0 0 auto;
+     =
+flex: none;  (nada flexível)
+
+
+flex: 1 1 auto; 
+     =
+flex: auto;  (máximo de flexibilidade que o filho pode ter)
+
+
+flex: 3; (só o flex grow desse elemento vai ser 3)
+     =
+flex: 3 1 auto;
+
