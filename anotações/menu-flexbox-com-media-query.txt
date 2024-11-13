@@ -1,0 +1,105 @@
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">Opção 1</a>
+            <a href="">Opção 2</a>
+            <a href="">Opção 3</a>
+            <a href="">Opção 4</a>
+            <a href="">Opção 5</a>
+            <a href="">Opção 6</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Teste de Flexbox</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolorem dolores ipsam amet, veritatis pariatur a voluptates voluptate doloribus obcaecati labore ipsa repellendus similique quasi vero voluptatem! Illo, fuga adipisci! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto architecto inventore officia, reprehenderit autem, nam quis fugiat vel eligendi quisquam minus ducimus itaque ab odit, in ratione sequi eius voluptas.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur tenetur, nulla vel cupiditate voluptas alias esse qui rerum aperiam est ea hic quibusdam molestiae sint blanditiis porro voluptates quod nihil.</p>
+    </main>
+</body>
+
+
+
+--- STYLE.CSS ---
+
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: lightgrey;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: darkgrey;
+    color: white;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1 {
+    /* border: 1px dotted black; */
+    flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.253);
+}
+
+header > nav {
+    /* border: 1px dotted black; */
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+header > nav > a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.2s;
+}
+
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
+}
+
+
+--- MOBILE.CSS ---
+
+
+@charset "UTF-8";
+
+header, header > nav {
+    flex-flow: column nowrap;
+}
+
+header > h1 {
+    flex-basis: 50px;
+}
+
+header > nav > a {
+    width: 90vw;
+}
